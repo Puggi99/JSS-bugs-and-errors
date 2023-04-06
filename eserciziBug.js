@@ -58,7 +58,7 @@ console.log(reliableMultiplyByTwoWhile(10))
 const box1 = new Box()
 
 function withBoxUnlocked(box, func) {
-    box.unlock()
+    box.unlock()c
     try {
         func(box)
     } catch (error) {
